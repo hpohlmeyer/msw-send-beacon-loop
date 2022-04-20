@@ -1,0 +1,15 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --strictPort --port 3002"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.9.5"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
